@@ -1,0 +1,92 @@
+[Root]
+Most Recent Package=CD Ejector Setup Script
+
+
+[Package|CD Ejector Setup Script|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=G:\Darrens Work\Visual Basic\My own stuff\CDOpener\Package
+
+[Package|CD Ejector Setup Script|Configure DAO ISAMs]
+Applicable=No
+
+[Package|CD Ejector Setup Script|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|CD Ejector Setup Script|Files Found]
+
+[Package|CD Ejector Setup Script|Files Released]
+
+[Package|CD Ejector Setup Script|Missing Dependency Information]
+
+[Package|CD Ejector Setup Script|Out-of-Date Dependency Information]
+
+[Package|CD Ejector Setup Script|Files Added]
+
+[Package|CD Ejector Setup Script|Files Removed]
+
+[Package|CD Ejector Setup Script|Files In Project]
+G:\Darrens Work\Visual Basic\My own stuff\CDOpener\CD_Ejector.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|CD Ejector Setup Script|Configure Registry Files]
+Applicable=No
+
+[Package|CD Ejector Setup Script|Configure Remote Servers]
+Applicable=No
+
+[Package|CD Ejector Setup Script|Install Locations]
+G:\Darrens Work\Visual Basic\My own stuff\CDOpener\CD_Ejector.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|CD Ejector Setup Script|Configure Shared Files]
+Applicable=Yes
+G:\Darrens Work\Visual Basic\My own stuff\CDOpener\CD_Ejector.exe=No
+
+[Package|CD Ejector Setup Script|Distribution]
+Type=single
+Size=
+Title=Whizzo CD Ejector
+
+[Package|CD Ejector Setup Script|IconGroups]
+Group0=Whizzo CD Ejector
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|CD Ejector Setup Script|Whizzo CD Ejector]
+Icon1=CD_Ejector.exe
+Title1=Whizzo CD Ejector
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=ST6UNST.EXE
+Title2=Uninstall Whizzo CD Ejector
+StartIn2=$(AppPath)
+Key2=Icon3
+
+[Package|CD Ejector Setup Script|Package]
+PackageFolder=G:\Darrens Work\Visual Basic\My own stuff\CDOpener\Package
+ProjectFolder=G:\Darrens Work\Visual Basic\My own stuff\CDOpener
+ServerSideCab=
+File1=G:\Darrens Work\Visual Basic\My own stuff\CDOpener\Package\setup.exe
+File2=G:\Darrens Work\Visual Basic\My own stuff\CDOpener\Package\Setup.Lst
+File3=G:\Darrens Work\Visual Basic\My own stuff\CDOpener\Package\CD_Ejector.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
